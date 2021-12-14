@@ -1,0 +1,26 @@
+DEBUG 2019-09-24 13:57:17,300   199ms Tritech Plugins Test   - Mt5ApiTest.cs:35 (Mt5GetuserTest) { result : True ,  data :  
+({"Login":2110113713,"Name":"test_attach","Email":"","Group":"Classic\\tts","Leverage":500,"Balance":500,"Equity":515,"MarginFree":515,"Agent":0,"ZipCode":"","Country":"India","State":"","City":"","Address":"","Phone":"","PhonePassword":"","MainPassword":null,"InvestPassword":null}); }
+DEBUG 2019-09-24 13:57:54,123   189ms Tritech Plugins Test   - BonusPluginUnitTest.cs:29 (.ctor) >>>>>>>>>> IN >>>>>>>>>>
+DEBUG 2019-09-24 13:57:55,802  1868ms Tritech Plugins Test   - BonusPluginUnitTest.cs:45 (.ctor) Initialize manager success
+DEBUG 2019-09-24 13:57:57,295  3360ms Tritech Plugins Test   - Manager.cs:95 (Login) Connection failed (MT_RET_AUTH_ACCOUNT_DISABLED)
+DEBUG 2019-09-24 13:57:57,296  3361ms Tritech Plugins Test   - BonusPluginUnitTest.cs:66 (InitialTest) { loginResult : False }
+DEBUG 2019-09-24 13:57:57,698  3764ms Tritech Plugins Test   - BonusPluginUnitTest.cs:29 (.ctor) >>>>>>>>>> IN >>>>>>>>>>
+DEBUG 2019-09-24 13:57:57,698  3764ms Tritech Plugins Test   - BonusPluginUnitTest.cs:45 (.ctor) Initialize manager success
+DEBUG 2019-09-24 13:58:01,082  7148ms Tritech Plugins Test   - Manager.cs:95 (Login) Connection failed (MT_RET_AUTH_ACCOUNT_DISABLED)
+DEBUG 2019-09-24 13:58:01,082  7148ms Tritech Plugins Test   - BonusPluginUnitTest.cs:54 (LoginTest) { loginResult : False }
+DEBUG 2019-09-24 18:30:02,590   160ms Tritech Plugins Test   - Mt5ApiTest.cs:35 (Mt5GetuserTest) { result : False ,  data :  
+({}); }
+DEBUG 2019-09-24 18:30:16,799   174ms Tritech Plugins Test   - BonusPluginUnitTest.cs:29 (.ctor) >>>>>>>>>> IN >>>>>>>>>>
+DEBUG 2019-09-24 18:30:17,249   625ms Tritech Plugins Test   - BonusPluginUnitTest.cs:45 (.ctor) Initialize manager success
+DEBUG 2019-09-24 18:30:18,698  2074ms Tritech Plugins Test   - Manager.cs:95 (Login) Connection failed (MT_RET_AUTH_ACCOUNT_DISABLED)
+DEBUG 2019-09-24 18:30:18,699  2075ms Tritech Plugins Test   - BonusPluginUnitTest.cs:54 (LoginTest) { loginResult : False }
+DEBUG 2019-09-24 18:30:18,963  2338ms Tritech Plugins Test   - BonusPluginUnitTest.cs:29 (.ctor) >>>>>>>>>> IN >>>>>>>>>>
+DEBUG 2019-09-24 18:30:18,964  2339ms Tritech Plugins Test   - BonusPluginUnitTest.cs:45 (.ctor) Initialize manager success
+DEBUG 2019-09-24 18:30:20,773  4149ms Tritech Plugins Test   - BonusPluginUnitTest.cs:66 (InitialTest) { loginResult : True }
+DEBUG 2019-09-24 18:30:20,999  4374ms Tritech Plugins Test   - Manager.cs:174 (GetUserInfo) Krishna Raj ,2266,demoClassic\tts,1:500
+DEBUG 2019-09-24 18:30:21,140  4516ms Tritech Plugins Test   - Manager.cs:196 (GetAccountInfo) Balance: 20746.7, Equity: 20746.7
+DEBUG 2019-09-24 18:30:21,140  4516ms Tritech Plugins Test   - BonusPluginUnitTest.cs:75 (InitialTest) { getAccountInfo : True }
+DEBUG 2019-09-24 18:30:21,270  4646ms Tritech Plugins Test   - BonusPluginUnitTest.cs:81 (InitialTest) { depositAmount : True }
+DEBUG 2019-09-24 18:30:21,396  4772ms Tritech Plugins Test   - Manager.cs:196 (GetAccountInfo) Balance: 20746.7, Equity: 20846.7
+DEBUG 2019-09-24 18:30:21,397  4773ms Tritech Plugins Test   - BonusPluginUnitTest.cs:86 (InitialTest) { balanceCheck : True }
+DEBUG 2019-09-24 18:30:21,548  4924ms Tritech Plugins Test   - Manager.cs:147 (GetUserDeal) DealRequest fail failed (MT_RET_ERR_NOTFOUND)
